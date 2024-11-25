@@ -1,0 +1,30 @@
+.custom-container{
+    max-width: 61.5%;
+    margin: auto;
+}
+@media (max-width: 640px) {
+    .custom-container{
+        max-width: 90%;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    .custom-container{
+        max-width: 85%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .custom-container{
+        max-width: 80%;
+    }
+}
+body{
+    font-family: "Manrope", sans-serif;
+}
+.custom-menu li a:hover{
+    background-color: transparent;
+    font-weight: bold;
+}
+.custom-banner{
+    background: url(images/1.png) no-repeat center center;
+    background-size: cover;
+}
